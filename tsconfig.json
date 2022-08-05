@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext"
+  },
+  "buildOptions": {
+    "downlevelIterator": true,
+  },
+  "include": [
+    "src/*.ts",
+    "test/*.ts"
+  ]
+}

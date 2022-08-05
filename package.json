@@ -1,0 +1,34 @@
+{
+  "name": "markdown-it-cite",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "node --experimental-json-modules build.js",
+    "dts": "./node_modules/.bin/npm-dts generate --entry 'src/index.ts' --output 'dist/index.d.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^13.0.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^28.1.6",
+    "@types/markdown-it": "^12.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "esbuild": "^0.14.53",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3",
+    "npm-dts": "^1.3.12",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
