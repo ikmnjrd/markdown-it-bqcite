@@ -23,7 +23,7 @@ build({
   outfile: './dist/index.esm.js',
   target: ['esnext', 'node16.16.0']
 }).then(() => {
-  console.log('watching...')
+  console.log('esm: watching...')
 })
 
 build({
@@ -32,5 +32,5 @@ build({
   outfile: './dist/index.cjs.js',
   target: ['esnext', 'node12.22.0']
 }).then(() => {
-  console.log('watching...')
+  console.log('cjs: watching...')
 })

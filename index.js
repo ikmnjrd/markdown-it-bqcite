@@ -1,1 +1,1 @@
-export default "./dist";
+export default './dist'
